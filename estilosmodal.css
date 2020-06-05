@@ -5,13 +5,14 @@
 #AbreModal{
     display: block;
     cursor: pointer;
-    position: fixed;
+    position:;
+    bottom: 5px;
     width: 120px;
     height: 100px;
     text-align: center;
     line-height: 100px;
-    background-color: rgba(255, 166, 0, 0.555);
-    color: rgb(0, 0, 12);
+    background-color: rgba(255, 0, 0, 0.555);
+    color: rgb(1, 1, 10);
     font-family: arial;
     font-size:20px ;
 }
@@ -24,6 +25,7 @@
     left: 0px;
     background-color:rgb(255, 255, 255) ;
     -webkit-transition: all 1s;
+    z-index: 100%;
 }
 
 #ActviaVentana:checked ~ .VentModal{
@@ -38,7 +40,7 @@
     width: 25px;
     height: 25px;
     text-align: center;
-    line-height: 30px;
+    line-height: 300px;
 }
 
 #contenidomodal{
